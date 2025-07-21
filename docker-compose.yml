@@ -26,8 +26,8 @@ services:
       MYSQL_SERVER_PORT: $MYSQL_SERVER_PORT
     depends_on:
       # - dist-init
-      - mysql
-      - redis
+      - erp-mysql
+      - erp-redis
     # ports:
     #   - "9999:9999"
     restart: unless-stopped
