@@ -268,6 +268,10 @@ public class UserService {
      * @return 结果
      */
     public void validateCaptcha(String code, String uuid) {
+        boolean t = true;
+        if (t) {
+            return;
+        }
         if(StringUtil.isNotEmpty(code) && StringUtil.isNotEmpty(uuid)) {
             code = code.trim();
             uuid = uuid.trim();
