@@ -12,3 +12,4 @@
 dist
 *.jar
 mysqldata
+.DS_Store
